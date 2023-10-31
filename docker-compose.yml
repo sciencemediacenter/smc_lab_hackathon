@@ -1,0 +1,15 @@
+# docker-compose.yml
+version: '3'
+services:
+  smc-lab-hackathon:
+    container_name: smc-lab-hackathon-container
+    build: .
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - .:/workspace
+    env_file:
+    - .env
+    ports:
+      - 8881:8888
+    command: "jupyter notebook --ip 0.0.0.0 --no-browser --allow-root" # sleep infinity
