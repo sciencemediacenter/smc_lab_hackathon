@@ -10,6 +10,16 @@ wir geben euch einen OpenAI API Key, den ihr in einer .env Datei als "OPENAI_API
 OPENAI_API_KEY=...
 ```
 
+## Datenbank
+
+Die Vektordatenbank mit den SMC-Angeboten und den vorberechneten Embeddings kann [hier](https://media.sciencemediacenter.de/share/hackathon_2023/chroma_db.zip) heruntergeladen werden. Die ZIP-Datei dann einfach im Unterverzeichnis /data entpacken.
+
+```
+wget -P ./data/ https://media.sciencemediacenter.de/share/hackathon_2023/chroma_db.zip
+unzip ./data/chroma_db.zip -d ./data/
+# rm ./data/chroma_db.zip
+```
+
 ## Benutzung
 
 ```
