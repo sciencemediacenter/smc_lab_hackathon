@@ -4,5 +4,6 @@ data/story_teaser/
 data/chroma_db/
 data/chroma_db.zip
 .devcontainer/
+ notebooks/.ipynb_checkpoints/
 notebooks/01_challenge_1_starter_mb.ipynb
 notebooks/01_challenge_1_starter_lbj.ipynb

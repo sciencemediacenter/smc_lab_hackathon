@@ -11,5 +11,5 @@ services:
     env_file:
     - .env
     ports:
-      - 8881:8888
-    command: "jupyter notebook --ip 0.0.0.0 --no-browser --allow-root" # sleep infinity
+      - 8888:8888
+    command: "jupyter notebook --ip 0.0.0.0 --no-browser --allow-root"
