@@ -37,7 +37,7 @@ in VS Code "Reopen in Container" und die docker-compose.yml im repo auswählen.
 
 ## Jupyter Notebooks
 
-Wir haben Jupyter Notebooks mit Beispielen vorbereitet. Ihr könnt diese als Grundlage für eure Lösungen nehmen. Die Jupyter Notebooks sind im src/notebooks/ Ordner. Diese könnt ihr
+Wir haben Jupyter Notebooks mit Beispielen vorbereitet. Ihr könnt diese als Grundlage für eure Lösungen nehmen. Die Jupyter Notebooks sind im notebooks/ Ordner. Diese könnt ihr
 
 - in VS Code öffnen und benutzen (wir empfehlen die Jupyter-Extension von Microsoft zu installieren)
 - mit dem laufenden Container im Browser öffnen (http://localhost:8888)
