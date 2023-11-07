@@ -60,4 +60,4 @@ Wir haben Jupyter Notebooks mit Beispielen vorbereitet. Ihr könnt diese als Gru
 
 ## SMC-Blog
 
-Das SMC Lab hat ein eigenes Blog. Unter [diesem Link](https://blog.smclab.io/category/masterclass-medien-triennale-sudwest-2023/) findet ihr Hintergründe zu großen Sprachmodellen.
+Das SMC Lab hat ein eigenes Blog. Unter [diesem Link](https://blog.smclab.io/category/masterclass-medien-triennale-sudwest-2023/) findet ihr Hintergründe zu großen Sprachmodellen. Der Code zu den dort gezeigten Beispiel-Anwendungen befindet sich [hier](https://github.com/sciencemediacenter/lab-masterclass-medientriennale-2023).
