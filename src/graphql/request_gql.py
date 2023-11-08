@@ -61,25 +61,26 @@ def get_general_query(
     flatten_response: bool = True,
 ) -> List[Dict[str, Any]]:
     """
-    Get all user (twitter_id and screen_name) of monitored twitter user by requesting GraphQL endpoint of database twitter_user.
+    Get all story_no of stories that are neither "Press Briefings" nor "Data Reports" by requesting GraphQL endpoint of smc database.
     Parameter:
     - where_clause: pass the complete clause within the where block, i.e.:
-      "video_block: {_ilike: "%youtube%"}, story_type: {_eq: "Press Briefing"}"
+      'type: {{_nin: ["Press Briefing", "Data Report"]}}'
     - return_nodes: pass string of nodes to return, i.e.:
-      "story_no, url"
+      "story_no"
+    - args_clause: 
+        - pass the complete args part, i.e.:
+            "order_by: {publication_date: desc}"
+        - default is None.
+        - use with tracked FUNCTIONS, only!
 
     Example:
         get_general_query(
-            where_clause='video_block: {_ilike: "%youtube%"}, story_type: {_eq: "Press Briefing"}',
-            table_name="html_blocks",
-            schema_name="bmbf_cms_data",
-            return_nodes="story_no",
+            table_name="story_meta",
+            schema_name="smc",
+            return_nodes="story_no"
+            where_clause='type: {{_nin: ["Press Briefing", "Data Report"]}}',
+            args_clause="order_by: {publication_date: desc}"
         )
-
-    args_clause:
-        - default is None.
-        - use with tracked FUNCTIONS, only!
-        - pass the complete args part, i.e. args: {search: "The name to search"}
 
     Returns List flattened on table level:
         {data: {table_name}: [{result: 1}, {result: 2}]} -> [{result: 1}, {result: 2}]
