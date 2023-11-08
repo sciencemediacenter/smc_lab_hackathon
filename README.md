@@ -36,6 +36,8 @@ unzip ./data/chroma_db.zip -d ./data/
 # rm ./data/chroma_db.zip
 ```
 
+[Hier](https://www.jcchouinard.com/wget/) ist eine Einleitung für die Installation von wget.
+
 ## 3. Container-Bau
 
 Es gibt zwei Möglichkeiten, den Container zu bauen und zu starten:
