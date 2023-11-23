@@ -62,7 +62,7 @@ unzip ./data/chroma_db.zip -d ./data/
 Wir haben Jupyter Notebooks mit Beispielen vorbereitet. Ihr könnt diese als Grundlage für eure Lösungen nehmen. Die Jupyter Notebooks sind im notebooks/ Ordner. Diese könnt ihr
 
 - in VS Code öffnen und benutzen (wir empfehlen die Jupyter-Extension von Microsoft zu installieren)
-- mit dem laufenden Container im Browser öffnen (http://localhost:8888)
+- mit dem laufenden Container im Browser öffnen (http://localhost:9999)
 
 ## SMC-Blog
 
