@@ -10,6 +10,9 @@ from chromadb.config import Settings
 from langchain.document_loaders import TextLoader
 from typing import Any, Dict, List
 from graphql.request_gql import get_general_query
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DATA_LOCATION = os.environ.get("DATA_LOCATION")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
