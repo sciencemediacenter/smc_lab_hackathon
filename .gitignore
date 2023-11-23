@@ -7,3 +7,4 @@ notebooks/01_challenge_1_starter_mb.ipynb
 notebooks/01_challenge_1_starter_lbj.ipynb
 *.txt
 *.json
+.DS_Store
