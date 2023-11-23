@@ -5,3 +5,5 @@ data/chroma_db.zip
 notebooks/.ipynb_checkpoints/
 notebooks/01_challenge_1_starter_mb.ipynb
 notebooks/01_challenge_1_starter_lbj.ipynb
+*.txt
+*.json
