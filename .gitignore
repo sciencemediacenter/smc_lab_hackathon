@@ -1,6 +1,4 @@
 .env
-data/story_statement/
-data/story_teaser/
 data/chroma_db/
 data/chroma_db.zip
 .devcontainer/
